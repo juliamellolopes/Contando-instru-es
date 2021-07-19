@@ -1,6 +1,6 @@
 Trabalho matrizNxN
 
-1)Custo computacional o pior caso: f(n) = 21n + 64 
+1)Custo computacional no pior caso: f(n) = 21n + 64 
 
 2)Não fui capaz de pensar em outra maneira de resolver os problemas.
 
