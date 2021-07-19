@@ -21,7 +21,7 @@ int main(){
 		}
 	}
 	
-	printf("\nMATRIZ PREENCHIDA\n");
+	printf("\n\tMATRIZ PREENCHIDA\n");
 	for(i = 0; i < N; i++){
 		for( j = 0; j < N; j++){
 			printf("%d\t", matriz[i][j]);
@@ -82,7 +82,7 @@ int main(){
 		i++;
 	}
 	
-	printf("\nCAMINHO REALIZADO\n");
+	printf("\n\tCAMINHO REALIZADO\n");
 	for(i = 0; i < N; i++){
 		for( j = 0; j < N; j++){
 			printf("%d\t", matriz[i][j]);
