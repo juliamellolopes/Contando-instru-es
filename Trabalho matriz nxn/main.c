@@ -10,12 +10,9 @@ int main(){
 	int j = 0;
 	
 	//criar matriz com o tamanho informado pelo usuario
-//	cout << "Informe N para o tamanho da matriz NxN: ";
-//	cin >> N;
+	print("Informe N para o tamanho da matriz NxN: ");
+	scanf("%d", &N);
 	int matriz[N][N];
-	int vetor[] = {6, 18, 7, 8, 9, 3, 1, 27, 45, 50, 6, 5, 1, 2, 21, 32, 44, 35, 0, 9, 22,
-			15, 11, 7, 45, 4, 18, 7, 4, 9, 19, 10, 6, 89, 11, 23, 23, 27, 1, 91, 77, 6, 33, 28, 
-			34, 18, 19, 96, 1};
 	
 	//preencher a matriz com valores aleatórios de 0 a 99
 	for(i = 0; i < N; i++){
@@ -23,15 +20,7 @@ int main(){
 			matriz[i][j] = rand()%100;
 		}
 	}
-	
-	int cont = 0;
-//	for(i = 0; i < N; i++){
-//		for(j = 0; j < N; j++){
-//			matriz[i][j] = vetor[cont];
-//			cont++;
-//		}
-//	}
-	
+
 	for(i = 0; i < N; i++){
 		for( j = 0; j < N; j++){
 			printf("%d\t", matriz[i][j]);
