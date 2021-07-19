@@ -10,7 +10,7 @@ int main(){
 	int j = 0;
 	
 	//criar matriz com o tamanho informado pelo usuario
-	print("Informe N para o tamanho da matriz NxN: ");
+	printf("Informe N para o tamanho da matriz NxN: ");
 	scanf("%d", &N);
 	int matriz[N][N];
 	
@@ -20,7 +20,8 @@ int main(){
 			matriz[i][j] = rand()%100;
 		}
 	}
-
+	
+	printf("\nMATRIZ PREENCHIDA\n");
 	for(i = 0; i < N; i++){
 		for( j = 0; j < N; j++){
 			printf("%d\t", matriz[i][j]);
@@ -81,6 +82,7 @@ int main(){
 		i++;
 	}
 	
+	printf("\nCAMINHO REALIZADO\n");
 	for(i = 0; i < N; i++){
 		for( j = 0; j < N; j++){
 			printf("%d\t", matriz[i][j]);
@@ -88,7 +90,7 @@ int main(){
 		printf("\n");
 	}
 	
-	printf("%d\n",somador);
+	printf("\nTotal do caminho: %d\n",somador);
 
 	return 0;
 }
