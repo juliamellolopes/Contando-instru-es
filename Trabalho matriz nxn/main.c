@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main(){
-	int N = 7;
+	int N;
 	int somador = 0;
 	srand(time(0));
 	int i = 0;
