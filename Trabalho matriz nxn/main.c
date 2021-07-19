@@ -2,8 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 
-//using namespace std;
-
 int main(){
 	int N = 7;
 	int somador = 0;
@@ -22,7 +20,7 @@ int main(){
 	//preencher a matriz com valores aleatórios de 0 a 99
 	for(i = 0; i < N; i++){
 		for( j = 0; j < N; j++){
-			matriz[N][N] = rand()%100;
+			matriz[i][j] = rand()%100;
 		}
 	}
 	
@@ -100,14 +98,6 @@ int main(){
 		}
 		printf("\n");
 	}
-	
-//	//mostrar a matriz
-//	for(int i = 0; i < N; i++){
-//		for(int j = 0; j < N; j++){
-//			cout << "\t" << matriz[i][j];
-//		}
-//		cout << endl;
-//	}
 	
 	printf("%d\n",somador);
 
