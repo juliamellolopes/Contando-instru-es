@@ -1,7 +1,7 @@
 Trabalho matrizNxN
 
 Algoritmo feito em DevC++. 
-Dentro da pasta "trabalho matrizNxN" devera encontrar o arquivo main.c onde se encontra o codigo solucionando o problema.
+Dentro da pasta "trabalho matriz nxn" devera encontrar o arquivo main.c, onde se encontra o codigo solucionando o problema.
 
 1)Custo computacional no pior caso: f(n) = 21n + 64 
 
